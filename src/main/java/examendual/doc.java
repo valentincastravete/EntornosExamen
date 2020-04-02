@@ -21,5 +21,14 @@ public interface doc {
      * línea en el número de la línea indicada.
      */
     public abstract String escribirLinea(int x, String line, String file);
+    
+    
+    //Devuelve el área de una ciudad en KM cuadrados.
+    /**
+     * Devuelve el área de una ciudad en KM cuadrados.
+     * @param ciudad La ciudad de la cúal se calculará el área.
+     * @return Los KM cuadrados de la ciudad.
+     */
+    public abstract double kmCuadradosCiudad(Class ciudad);
 
 }
